@@ -9,8 +9,8 @@
 <body>
   <h1 align="center">DRF OS</h1>
   <hr size="5">
-  <button class="pole" id="pole" ></button>
-  <button id="class">Search🔎</button>
+  <button class="pole" onclick="javascript:let search = promt("Search:");"></button>
+  <button onclick="javascript:window.location.href=`${search}`;">Search🔎</button>
   <script>
     pole.addEventListener('click', function(){ //вешаем событие на нажатие html-кнопки
       let search = promt("Search:");
