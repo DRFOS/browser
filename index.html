@@ -8,11 +8,14 @@
 <body>
   <h1 align="center">DRF OS</h1>
   <hr size="5">
-  <button class="pole" id="pole" disabled></button>
+  <button class="pole" id="pole" ></button>
   <button id="class">Search🔎</button>
   <script>
     pole.addEventListener('click', function(){ //вешаем событие на нажатие html-кнопки
-	  let search = 
+      let search = promt("Search:");
+    });
+    btn.addEventListener('click', function(){ //вешаем событие на нажатие html-кнопки
+    window.location.href = `${search}`;
     });
   </script>
 </body>
