@@ -9,13 +9,15 @@
 Добавлено: папка `text`[^f_text],
 `text1-10`[^text1-10].
 Добавлен русский язык[^ru_lang]
-<br>
+<hr>
+
 ### 0.0.3
 Добавлено: `app//browser.com`[^browser.com], `system//badge`[^badge], `system//close`[^close] и возможность закрывать приложения[^close_application].
 <hr>
 
-[^f_system]:Системная папка
-[^f_app]:Папка для размещения приложений
+# Resources
+[^f_system]:[Системная папка](floaders/system)
+[^f_app]:[Папка для размещения приложений](floaders/app)
 [^f_text]:Папка с спрайтами для выведения текста приложений
 [^setting.com]:[Приложение `Настройки`](floaders/app/setting.com.md)
 [^system]:[Ядро системы](floaders/system/system.md)
